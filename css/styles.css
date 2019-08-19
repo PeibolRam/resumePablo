@@ -1,6 +1,5 @@
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -10,6 +9,7 @@ h6 {
   font-weight: bold;
   text-rendering: optimizelegibility;
 }
+
 h1.altheader,
 h2.altheader,
 h3.altheader,
@@ -21,6 +21,13 @@ h6.altheader {
   display: block;
 }
 
+h2{
+  font-family: 'Courgette', cursive;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
 p,
 ol,
 ul,
@@ -168,13 +175,6 @@ hr {
 .intro {
   font-weight: bold;
 }
-
-/*--------------------------------*\
-    $GRIDS
-\*--------------------------------*/
-/*------------------------------------*\
-    $SITIO
-\*------------------------------------*/
 @-webkit-viewport {
   width: device-width;
 }
@@ -236,6 +236,10 @@ section {
   color: white;
 }
 
+.header h1{
+  font-family: 'Bungee Inline', cursive;
+}
+
 .header img{
   border-radius: 150px;
   border: solid 5px #fff;
@@ -263,6 +267,7 @@ section {
   position: relative;
 }
 .block__title {
+  font-family: 'Press Start 2P', cursive;
   background-color: white;
   padding: 12px 24px;
   font-size: 28px;
@@ -279,4 +284,23 @@ section {
 .tecnologias i{
   font-size: 5rem;
   margin: 10px;
+}
+
+.cursos{
+  text-align: center;
+}
+
+.curso h2{
+  font-family: 'Courgette', cursive;
+  margin: 1em auto;
+}
+
+.curso img{
+  border-radius: 30px;
+  object-fit: contain;
+  height: 500px;
+}
+
+.contacto{
+  text-align: center;
 }
