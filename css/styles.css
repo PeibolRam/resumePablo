@@ -248,10 +248,11 @@ section {
 .header-social a{
   text-decoration: none;
   color: #fff;
+  margin: 1em;
 }
 
 .block {
-  max-width: 800px;
+  max-width: 80%;
   margin: 2em auto;
   background-color: white;
   position: relative;
@@ -268,4 +269,14 @@ section {
   font-weight: bold;
   color: #dbd879;
   border-bottom: 1px solid #b3b3b3;
+}
+
+.tecnologias{
+  margin: 1em auto;
+  text-align: center;
+}
+
+.tecnologias i{
+  font-size: 5rem;
+  margin: 10px;
 }
